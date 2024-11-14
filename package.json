@@ -1,0 +1,32 @@
+{
+  "name": "displaymessage",
+  "version": "1.0.0",
+  "description": "UI for displaying messages",
+  "main": "dist/index.mjs.js",
+  "type": "module",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "prepare": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.4.14"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.25.9",
+    "@rollup/plugin-babel": "^6.0.0",
+    "@rollup/plugin-commonjs": "^24.0.0",
+    "@rollup/plugin-json": "^5.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "rollup": "^3.3.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2"
+  },
+  "author": "sharjil",
+  "license": "ISC"
+}

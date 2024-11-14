@@ -1,0 +1,34 @@
+# Node Modules (automatically excluded by npm, but listed here for clarity)
+node_modules/
+
+# Tests
+test/
+tests/
+
+# Documentation
+docs/
+doc/
+
+# Git/IDE files
+.git/
+.vscode/
+
+# Logs
+*.log
+
+# Environment and swap files
+*.env
+*.swp
+*.swo
+
+# macOS system files
+.DS_Store
+
+# Build and coverage files
+build/
+dist/
+coverage/
+
+# Lock files (optional, depending on use)
+yarn.lock
+package-lock.json
